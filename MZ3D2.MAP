@@ -1,0 +1,246 @@
+Linker command line:
+
+-W-20 -z -x -n -h+C:\HT-Z80\mz3d2\mz3d2.SYM -mC:\HT-Z80\mz3d2\mz3d2.MAP \
+  -pvectors=0,lowtext,text,strings,const,im2vecs,data,ddaconst,nvram,ddadata \
+  -ptextdata=08000h,sprtdata -pbss=0c000h,heap -oC:\WINDOWS\TEMP\L.OBJ \
+  C:\HT-Z80\LIB\RTZ80-c.OBJ MSX2LIB.OBJ CHECKKBD.OBJ TEXDATA.OBJ \
+  SPRTDATA.OBJ VDPHLP.OBJ HMMC-TEX.OBJ HMMCSPRT.OBJ HMMV-TEX.OBJ \
+  HMMVFLAT.OBJ HMMVSPRT.OBJ ITOA.OBJ FAST_DDA.OBJ DDA_DATA.OBJ TEXCOORD.OBJ \
+  DDAWORD.OBJ ISR.OBJ DSKIO.OBJ CLIPMOVE.OBJ FASTSPRT.OBJ DRAW.OBJ DDA.OBJ \
+  NPCAI.OBJ DOSMAIN.OBJ C:\HT-Z80\LIB\Z80-cC.LIB 
+
+Object code version is 3.7
+
+Machine type is Z80
+
+		Name          Link     Load   Length Selector Space Scale
+C:\HT-Z80\LIB\RTZ80-c.OBJ
+		bss           C000     C000        2    C000     0
+		text           100      100       95       0     0
+		vectors          0        0      100       0     0
+		const         56F9     56F9       1C       0     0
+MSX2LIB.OBJ     bss           C002     C002       20    C000     0
+		text           195      195       8E       0     0
+CHECKKBD.OBJ    text           223      223       53       0     0
+TEXDATA.OBJ     
+SPRTDATA.OBJ    
+VDPHLP.OBJ      bss           C022     C022        D    C000     0
+		data          576A     576A        F       0     0
+		text           276      276      24B       0     0
+HMMC-TEX.OBJ    text           4C1      4C1      1D8       0     0
+HMMCSPRT.OBJ    text           699      699       A3       0     0
+HMMV-TEX.OBJ    text           73C      73C      19D       0     0
+HMMVFLAT.OBJ    text           8D9      8D9      116       0     0
+HMMVSPRT.OBJ    text           9EF      9EF      1AE       0     0
+ITOA.OBJ        bss           C02F     C02F        8    C000     0
+		text           B9D      B9D       55       0     0
+FAST_DDA.OBJ    text           BF2      BF2      23C       0     0
+DDA_DATA.OBJ    ddadata       5E00     5E00      200       0     0
+		ddaconst      5A00     5A00      400       0     0
+TEXCOORD.OBJ    text           E2E      E2E       4B       0     0
+DDAWORD.OBJ     ddadata       6000     6000      900       0     0
+ISR.OBJ         bss           C037     C037        5    C000     0
+		text           E79      E79       7E       0     0
+DSKIO.OBJ       bss           C03C     C03C      114    C000     0
+		data          5779     5779       1C       0     0
+		text           EF7      EF7     2E82       0     0
+		strings       5618     5618       7F       0     0
+CLIPMOVE.OBJ    text          3D79     3D79       A9       0     0
+FASTSPRT.OBJ    bss           C150     C150      1E7    C000     0
+		text          3E22     3E22      5FA       0     0
+		strings       5697     5697       18       0     0
+DRAW.OBJ        bss           C337     C337        A    C000     0
+		text          441C     441C       E4       0     0
+DDA.OBJ         bss           C341     C341      13F    C000     0
+		data          5795     5795      226       0     0
+		text          4500     4500      4FD       0     0
+		const         5715     5715       18       0     0
+NPCAI.OBJ       bss           C480     C480       E9    C000     0
+		data          59BB     59BB        2       0     0
+		text          49FD     49FD      3C8       0     0
+DOSMAIN.OBJ     text          4DC5     4DC5      129       0     0
+		strings       56AF     56AF       4A       0     0
+
+C:\HT-Z80\LIB\Z80-cC.LIB
+atan.obj        text          4EEE     4EEE      120       0     0
+		const         572D     572D       38       0     0
+fabs.obj        text          500E     500E       39       0     0
+		const         5765     5765        4       0     0
+strncpy.obj     text          5047     5047       50       0     0
+evalpoly.obj    text          5097     5097       92       0     0
+frelop.obj      text          5129     5129       29       0     0
+asfloat.obj     text          5152     5152       24       0     0
+ftol.obj        text          5176     5176       2B       0     0
+ltof.obj        text          51A1     51A1       74       0     0
+float.obj       bss           C569     C569        1    C000     0
+		text          5215     5215      202       0     0
+lmul.obj        text          5417     5417       3F       0     0
+start1.obj      bss           C56A     C56A        2    C000     0
+		text          5456     5456        3       0     0
+start2.obj      text          5459     5459       52       0     0
+		const         5769     5769        1       0     0
+strchr.obj      text          54AB     54AB       11       0     0
+allsh.obj       text          54BC     54BC       11       0     0
+idiv.obj        text          54CD     54CD       6B       0     0
+exit.obj        text          5538     5538       20       0     0
+iregset.obj     text          5558     5558       26       0     0
+fastb.obj       
+imul.obj        text          557E     557E       1F       0     0
+alrsh.obj       text          559D     559D       14       0     0
+wrelop.obj      text          55B1     55B1        F       0     0
+fakeclean.obj   text          55C0     55C0        1       0     0
+pshlng.obj      text          55C1     55C1       13       0     0
+wrelop1.obj     text          55D4     55D4        F       0     0
+shll.obj        text          55E3     55E3        D       0     0
+shlr.obj        text          55F0     55F0       10       0     0
+wrelop3.obj     text          5600     5600       18       0     0
+
+TOTAL		Name          Link     Load   Length
+	CLASS	CODE     
+		text           100      100     5518
+		vectors          0        0      100
+		strings       5618     5618       E1
+		const         56F9     56F9       71
+		ddaconst      5A00     5A00      400
+
+	CLASS	DATA     
+		bss           C000     C000      56C
+		data          576A     576A      253
+		ddadata       5E00     5E00      B00
+
+	CLASS	FARDATA  
+
+
+
+SEGMENTS	Name		Load	Length	 Top	Selector    Space Class
+
+		vectors         000000	006900	006900	       0       0  CODE    
+		bss             00C000	00056C	00C56C	    C000       0  DATA    
+
+
+                                  Symbol Table
+
+__Lvectors         vectors  0000  float_or_long_used (abs)    0001
+small_model        (abs)    0001  _FLOOR             (abs)    0011
+_mapHeight         (abs)    0030  _mapWidth          (abs)    0030
+_CEIL              (abs)    00FF  __Hlowtext         lowtext  0100
+__Hvectors         vectors  0100  __Llowtext         lowtext  0100
+__Ltext            text     0100  start              text     0100
+_bordercolor       text     0195  _vdpsetvramwr      text     019F
+_vdpsetvramrd      text     01BB  _scr               text     01D5
+_setpage           text     0202  _SetPalette        text     0211
+_getmouse          text     0223  _joy               text     0259
+_checkkbd          text     026B  _screen_int        text     0276
+_cmd_cls           text     028E  _swap_buffer       text     030A
+_send_vdpcmd       text     031A  _vdp_setup0        text     033F
+_pset              text     0372  _vtrace0           text     03D6
+_vtrace1           text     0417  _hmmcTexRender     text     04C1
+_hmmcVtrace1       text     0699  _hmmvTexRender     text     073C
+_hmmvFlat          text     08D9  _hmmvSprite        text     09EF
+_printfps          text     0B9D  _fast_dda          text     0BF2
+_tex_coord         text     0E2E  _initISR           text     0E79
+_restoreISR        text     0E9F  __fgets            text     0EF7
+_plotline          text     0F54  _openmap           text     0F76
+_loaddata          text     1084  _grph_init         text     12E3
+_load              text     140D  _loadseg           text     1471
+_alloc_seg         text     148A  _rlesegtxture      text     14AB
+_rlesegsprite      text     16EB  _rletxture         text     21EB
+_rlesprite         text     266B  _palettedata       text     3C6B
+_dosinit           text     3C8B  _get_seg           text     3CA3
+_set_seg           text     3CA8  _alloc_seg2        text     3CAB
+__open             text     3CE5  __creat            text     3CF4
+__close            text     3D07  __dup              text     3D12
+__read             text     3D21  __write            text     3D35
+__lseek            text     3D49  __exit             text     3D73
+_clipMove2         text     3D79  _mul3              text     3E22
+_set_sprites       text     3E32  _move_npcs         text     3EE3
+_sort_sprites      text     3F14  _translate_sprites text     3F4E
+_plot_sprites      text     4192  _draw              text     441C
+_mul               text     4500  _mul2              text     4510
+_getMoveCommands   text     4528  _doMove            text     46E7
+_ddamain           text     48B6  _UNIT_Turn         text     49FD
+_UNIT_IsAtNode     text     4A06  _UNIT_NewMove      text     4B75
+_UNIT_Init         text     4D3B  _UNIT_UpdateMove   text     4D7C
+_print             text     4DC5  _error2            text     4DD4
+_error             text     4E12  _main              text     4E19
+_test_r800         text     4EC1  _setr800           text     4ECC
+_testemulation     text     4EE2  _atan              text     4EEE
+_fabs              text     500E  _strncpy           text     5047
+_eval_poly         text     5097  frelop             text     5129
+asfladd            text     5152  asflsub            text     515B
+asflmul            text     5164  asfldiv            text     516D
+ftol               text     5176  lbtof              text     51A1
+litof              text     51A4  abtof              text     51AC
+aitof              text     51B0  altof              text     51FD
+lltof              text     51C1  fpnorm             text     5215
+negmant            text     5241  flsub              text     524E
+fladd              text     525D  flmul              text     530A
+fldiv              text     53A1  almul              text     5417
+__getargs          text     5459  _strchr            text     54AB
+allsh              text     54BC  amod               text     54CD
+lmod               text     54D2  adiv               text     54DC
+llmul              text     5417  lllsh              text     54BC
+ldiv               text     54D7  _exit              text     5538
+iregset            text     5558  iregstore          text     5572
+amul               text     557E  lmul               text     557E
+alrsh              text     559D  __cleanup          text     55C0
+startup            text     5456  wrelop             text     55B1
+push_long          text     55C1  wrelop1            text     55D4
+shal               text     55E3  shll               text     55E3
+shlr               text     55F0  wrelopbc           text     5600
+__Htext            text     5618  __Lstrings         strings  5618
+__Hstrings         strings  56F9  __Lconst           const    56F9
+__Hconst           const    576A  __Him2vecs         im2vecs  576A
+__Ldata            data     576A  __Lim2vecs         im2vecs  576A
+_buffer            data     5779  _cosine            data     5795
+_friction          data     5995  _accelFwdTab       data     5997
+_accelSideTab      data     59A7  _accelWalk         data     59B7
+_accelRun          data     59B9  _UNIT_PATH         data     59BB
+__Hdata            data     59BD  __Lddaconst        ddaconst 5A00
+cosine_low         ddaconst 5A00  secant_low         ddaconst 5C00
+__Hddaconst        ddaconst 5E00  __Hnvram           nvram    5E00
+__Lddadata         ddadata  5E00  __Lnvram           nvram    5E00
+_lineheight        ddadata  5E00  _RLEData           ddadata  5F00
+_world             ddadata  6000  __Hddadata         ddadata  6900
+__Hsprtdata        sprtdata 8000  __Htextdata        textdata 8000
+__Lsprtdata        sprtdata 8000  __Ltextdata        textdata 8000
+__Lbss             bss      C000  _errno             bss      C000
+_dummy             bss      C002  _workpage          bss      C022
+_pframe_even       bss      C023  _pframe_odd        bss      C025
+_pp                bss      C027  _pseg_frame_even   bss      C029
+_pseg_frame_odd    bss      C02B  _threshold         bss      C02D
+_string            bss      C02F  _StartX            bss      C03D
+_StartY            bss      C03E  _seg_sprt          bss      C03F
+_seg_text          bss      C047  _wallTypes         bss      C04F
+_VisibleSprites    bss      C150  _savesp            bss      C151
+_sortArray         bss      C153  _sprites           bss      C1D7
+_col               bss      C337  _color             bss      C338
+_side              bss      C339  _tex               bss      C33A
+_direction         bss      C33B  _dist              bss      C33D
+_height            bss      C33F  _CurDx             bss      C343
+_CurDy             bss      C344  _NoMouse           bss      C345
+_doExit            bss      C346  _down              bss      C347
+_esc               bss      C348  _graph             bss      C349
+_i                 bss      C34A  _kbd               bss      C34B
+_key1              bss      C34C  _key2              bss      C34D
+_left              bss      C34E  _left2             bss      C34F
+_right             bss      C350  _right2            bss      C351
+_shift             bss      C352  _tab               bss      C353
+_up                bss      C354  _alpha             bss      C361
+_distP             bss      C363  _fovAngleP         bss      C365
+_fps               bss      C367  _framecount        bss      C369
+_fwdSpeed          bss      C36B  _pad               bss      C36D
+_rotSpeed          bss      C36F  _sideSpeed         bss      C371
+_x                 bss      C373  _xPos              bss      C375
+_y                 bss      C377  _yPos              bss      C379
+_move              bss      C37B  _dists             bss      C380
+_fovAngles         bss      C400  _UNIT_DestSet      bss      C480
+_UNIT_CTick        bss      C481  _UNIT_MoveX        bss      C483
+_UNIT_MoveY        bss      C485  _UNIT_PosX         bss      C487
+_UNIT_PosY         bss      C489  _UNIT_Speed        bss      C48B
+_UNIT_StartTick    bss      C48D  _UNIT_cKeyFrame    bss      C48F
+_UNIT_cPath        bss      C491  _UNIT_destX        bss      C493
+_UNIT_destY        bss      C495  _UNIT_nPath        bss      C497
+_nodelist          bss      C499  __argc_            bss      C56A
+__Hbss             bss      C56C  __Hheap            heap     C56C
+__Lheap            heap     C56C  _jiffy             (abs)    FC9E

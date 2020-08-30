@@ -1,0 +1,54 @@
+    W W W               W W W                                                                                 
+    W . W   W W W       W . W           W W W W W W W                                                         
+    W . W   W . W       W . W W W W W   W . . . D . W W W W W W W W                                           
+    W . W   W . W       W . . . . . W   W W W W W . W W . . . . . W W W W W W W                               
+W W W . W W W . W       W . W W W W W   W W W W W . W W . . . . . . . . . . . W                               
+W . . . . W W . W W W W W . W W W W W W W . . . W . W W . . . . . W W W W W W W                               
+W . . . . . . . . . . . W . . . . . . . W . . . W . W W W W D W W W                                           
+W . . . . W . W W W W . W . W W W W W W W . S . . . . . . . . . W                                             
+W . . . . W . W . . . . C . . . . . . . W . . . W W W D W W W W W                                             
+W W W . W W . W . . . . . . W W W . W . W . . . W   W . W . . . W                                             
+    W . W W . W . . . S . . W   W . W . W W . W W   W . W . . . W                                             
+    W . W W W W . . . . . . W   W . W . . . . . W   W . W . . . W                                             
+    W . W     W . . . . . . W   W . W . W W W W W W W . W . S . W                                             
+    W . W     W W W . W W W W   W . W . . . . . . W W . W . . . W                                             
+W W W W W W W W W . . . W W W W W . W W W W D W W W W . W . . . W                                             
+W . . . . . . . . . . . . . . . W W W     W . W W W W W W W . W W                                             
+W . W . W . W W W . . . W W W W W W W W   W . . . . . . . . . . W                                             
+W . W . W . W   W . . . D . . . . . . W   W . W W W W W W W W W W                                             
+W . W . W . W   W . . . W W W W W W W W   W . . . . . . W                                                     
+W . W . W . W   W . . . . . . . . . . W   W . W W W W W W                                                     
+W . W W W . W W W W W . W W W W W W W W W W . W                                                               
+W . W   W . W W . . . . . . . . . . . . W W W W                                                               
+W . W   W . W W . . . C . . . W W W W W W               W W W                                                 
+W . W   W W W W . . . . . . . W                         W . W                                                 
+W W W         W . . . . . . . W                         W . W                                                 
+              W . . . S . . . W W W W W W W W W         W . W                                                 
+      W W W W W . . . . . . . . . . . . . . . W   W W W W . W                                                 
+      W . . . W . . . . . . . W W W W W W W W W   W . W W . W                                                 
+      W . S . . . . . . . . . W                   W . W W . W                                                 
+      W . . . W . W W W W W W W W W W W W W W W W W . W W . W W                                               
+      W W W W W . . . . . . . . D . . . . . . . W W . D . . . W                                               
+      W W W W W . W W W W W . W W . W W W . W W W W . W W W W W W W W W                                       
+      W . . . D . W   W . . . . W . W   W . . . . . . . . . . . . . . W                                       
+      W W . W W . W   W . . . . W . W   W . W W . W W W W W W W W W W W                                       
+        W . W W W W   W . . S . W . W   W . W W . W                                                           
+        W . W         W . . . . W . W   W . W W . W W W W W W W                                               
+        W . W         W W W . W W . W   W . W W . . . . . . . W W W                                           
+W W W W W . W             W . W W . W   W . W W . W W W W . W W . W                                           
+W . . . W . W             W . W W . W   W W W W . W     W . W W . W                                           
+W . . . W . W             W . W W W W   W . W W . W     W . W W . W W W W W W                                 
+W . . . W . W             W W W         W . W W . W     W . W W . D . . . . W                                 
+W . S . . . W         W W W W W W W     W . W W . W     W . W W . W W W W W W                                 
+W . . . W . W W W W W W . . . . . W W W W . W W . W W W W W W W . W W W W W W W W W W W W W W W               
+W . . . W . W W . . . . . . . . . . . . . . . D . D . . . . . . . . . . . . . . . . . . . . . W               
+W . . . W . W W W W W W . . . . . W W W W W W W . W W W W W W W W W W W W W W W W W W W W W W W               
+W W W W W . W         W W W W W W W           W . . . . . . . . . . . . W                                     
+        W . W                                 W W W W W W W W W W W W W W                                     
+        W . W                                                                                                 
+        W W W                                                                                                 
+                                                                                                              
+Dungeon has 69 rooms.
+Dungeon could have had 69 rooms.
+Dungeon has 7 spawner(s).
+Dungeon has 4 chest(s).
